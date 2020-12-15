@@ -1,9 +1,42 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-   align-items: flex-end;
+    align-items: center;
     padding-right: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 40px;
+    border-radius: 20px;
+    opacity: 0.8;
+    border: 1px solid rgb(214, 218, 219);
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    background-color: rgb(243, 244, 240);
+    color: gray;
+    margin-top: 274px;
 }
 
 .connexion{
@@ -16,8 +49,22 @@ header {
     text-decoration: none;
 }
 
+.gray {
+    background-color: rgb(243, 243, 243);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    border: none;
+    color: rgb(64, 64, 64);
+}
+
+.blank{
+    flex-basis: 30%;
+}
+
 #link{
     text-decoration: none;
+    font-size: small;
 }
 
 #link:hover{
@@ -28,78 +75,37 @@ header {
     color: black;
 }
 
-main {
-    display: column;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 #logo {
     margin-top: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-input {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 550px;
-    height: 30px;
-    margin-left: 470px;
-    margin-top: 30px;
-    padding-left: 40px;
-    outline: none;
-    border-radius: 15px;
+#searchbar{
+    align-self: center;
 }
 
-#icon{
+#icon {
     position: absolute;
-    margin-left: 480px;
-    margin-top: 10px;
-}
-
-#buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.gray {
-    background-color: rgb(243, 244, 240);
-    opacity: 0.5;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 20px;
-}
-
-footer{
-    display: block;
-    background-color: rgb(243, 244, 240);
+    margin-top: 44px;
+    margin-left: 12px;
     color: gray;
-    margin-top: 279px;
+    min-width: 50px;
 }
 
 #country, #other{
     border: 1px solid rgb(231, 233, 226);
     border-collapse: collapse;
     padding: 10px 10px 10px 10px;
+    align-self: stretch;
 }
 
 #other{
     display: flex;
     flex-direction: row;
+    align-self: stretch;
+    flex-basis: 100%;
     justify-content: space-between;
-    align-items: center;
 }
 
-.blank{
-    flex-basis: 300px;
-}
 
 #link_footer{
     color: gray;
