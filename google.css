@@ -1,0 +1,115 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   align-items: flex-end;
+    padding-right: 30px;
+}
+
+.connexion{
+    background-color: #4285F4;
+    color: white;
+    padding: 6px 8px 6px 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#link{
+    text-decoration: none;
+}
+
+#link:hover{
+    text-decoration: underline;
+}
+
+#link:visited{
+    color: black;
+}
+
+main {
+    display: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 30px;
+    margin-left: 470px;
+    margin-top: 30px;
+    padding-left: 40px;
+    outline: none;
+    border-radius: 15px;
+}
+
+#icon{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray {
+    background-color: rgb(243, 244, 240);
+    opacity: 0.5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+footer{
+    display: block;
+    background-color: rgb(243, 244, 240);
+    color: gray;
+    margin-top: 279px;
+}
+
+#country, #other{
+    border: 1px solid rgb(231, 233, 226);
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+
+#other{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blank{
+    flex-basis: 300px;
+}
+
+#link_footer{
+    color: gray;
+    text-decoration: none;
+}
+
+#link_footer:hover{
+text-decoration: underline;
+}
+
+#link_footer:active{
+    color: red;
+}
